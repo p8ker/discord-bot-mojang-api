@@ -3,7 +3,7 @@ import disnake
 from disnake.ext import commands
 
 #make bot
-intents = disnake.Intents.all() # or .all() if you ticked all, that is easier
+intents = disnake.Intents.all() 
 intents.members = True
 
 bot = commands.Bot(command_prefix='!', intents=intents)
